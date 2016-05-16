@@ -1,20 +1,21 @@
 {
   "version": "0.2.0",
   "author": {
-    "name": "Robert Haritonov",
-    "url": "http://rhr.me/"
+    "name": "Norbert de Langen"
   },
-  "description": "Example of pre-configured SourceJS bundle for building React Component Libraries and Style Guides.",
+  "description": "An extended example of SourceJS focused on React",
   "scripts": {
     "build-source": "cd ./node_modules/sourcejs && npm run build",
     "start": "node ./node_modules/sourcejs/app.js -p $PORT",
     "postinstall": "node pre-build-production.js"
   },
   "dependencies": {
+    "lodash": "^4.12.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
-    "sourcejs": "^0.6.0-nightly.4",
+    "sourcejs": "^0.6.0-nightly.6",
     "sourcejs-react-docgen": "^0.3.0",
+    "sourcejs-react-docgen2": "file:/Users/Norbert/Work/Projects/OPEN/me/sourcejs/sourcejs-react-docgen2/",
     "sourcejs-react-styleguidist": "^0.4.0"
   }
 }

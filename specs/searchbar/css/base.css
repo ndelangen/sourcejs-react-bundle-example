@@ -1,0 +1,29 @@
+.root {
+	position: relative;
+	height: 35px;
+
+	color: white;
+	background: rgba(0,0,0,0.9);
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.input {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	display: block;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	width: auto;
+	border: 0;
+	width: calc(100% - 10px);
+	border: 0 none;
+	outline: 0 solid white;
+}
+.input:focus {
+	outline: 5px solid white;
+}

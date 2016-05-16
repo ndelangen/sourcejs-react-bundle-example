@@ -1,9 +1,9 @@
 {
-	"title": "Button Spec",
+  "title": "Searchbar Spec",
 	"info": "Spec description.",
 	"tag": ["tags", "for", "search"],
 
-	"author": "Robert Haritonov",
+	"author": "Norbert de Langen",
 
 	"specFile": "readme.md",
 	"thumbnailPath": "design/thumbnail.png"

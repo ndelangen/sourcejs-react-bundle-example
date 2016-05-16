@@ -1,0 +1,19 @@
+.root {
+	padding: 10px;
+	display: block;
+	overflow: hidden;
+	line-height: 26px;
+}
+
+.root + .root {
+	border-top: 1px solid silver;
+}
+
+.id {
+	float: left;
+	margin-right: 10px;
+}
+.button {
+	float: right;
+	margin-left: 10px;
+}

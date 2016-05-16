@@ -1,0 +1,33 @@
+.root {
+	padding: 1.5em;
+	color: white;
+	background: deeppink linear-gradient(to top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+	border-radius: .3em;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.title {
+	margin: 0;
+	padding: 0;
+
+	line-height: 1;
+	font-size: 20px;
+}
+
+.backicon {
+	float: left;
+
+	line-height: 1;
+	font-size: 20px;
+	
+	text-decoration: inherit;
+	color: inherit;
+}
+.backicon.is-shown {
+	visibility: visible;
+}
+.backicon.is-hidden {
+	visibility: collapse;
+}
