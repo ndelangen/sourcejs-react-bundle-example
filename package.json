@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "lodash": "^4.12.0",
-    "react": "^15.3.2",
+    "react": "^15.5.3",
     "react-dom": "^15.3.2",
     "sourcejs": "^0.6.0-nightly.6",
     "sourcejs-react-docgen": "^0.3.0",
